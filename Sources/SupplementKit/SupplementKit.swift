@@ -8,11 +8,18 @@ public struct SupplementKit {
     public init() { }
 
     public func get() -> [Supplement] {
-        if let path = Bundle.main.path(forResource: "supplements", ofType: "json"),
-           let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path)) {
-            if let supplements = loadSupplements(from: jsonData) {
-                return supplements
-            }
+        guard let path = Bundle.main.path(forResource: "supplements", ofType: "json") else {
+            print("path not found")
+            return []
+        }
+
+        guard let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path)) else {
+            print("jsonData not found")
+            return []
+        }
+
+        if let supplements = loadSupplements(from: jsonData) {
+            return supplements
         }
 
         return []
@@ -35,9 +42,9 @@ public struct SupplementKit {
 
 
 public struct Supplement: Codable {
-    let basicInfo: BasicInfo
-    let benefitsAndUsage: BenefitsAndUsage
-    let warningsAndSideEffects: WarningsAndSideEffects
+    public let basicInfo: BasicInfo
+    public let benefitsAndUsage: BenefitsAndUsage
+    public let warningsAndSideEffects: WarningsAndSideEffects
 
     enum CodingKeys: String, CodingKey {
         case basicInfo = "basic_info"
@@ -47,15 +54,15 @@ public struct Supplement: Codable {
 }
 
 public struct BasicInfo: Codable {
-    let name: String
-    let brand: String
-    let type: String
-    let form: String
+    public let name: String
+    public let brand: String
+    public let type: String
+    public let form: String
 }
 
 public struct BenefitsAndUsage: Codable {
-    let benefits: [String]
-    let targetAudience: [String]
+    public let benefits: [String]
+    public let targetAudience: [String]
 
     enum CodingKeys: String, CodingKey {
         case benefits
@@ -64,9 +71,9 @@ public struct BenefitsAndUsage: Codable {
 }
 
 public struct WarningsAndSideEffects: Codable {
-    let sideEffects: [String]
-    let precautions: [String]
-    let allergens: [String]
+    public let sideEffects: [String]
+    public let precautions: [String]
+    public let allergens: [String]
 
     enum CodingKeys: String, CodingKey {
         case sideEffects = "side_effects"
