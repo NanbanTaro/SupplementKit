@@ -1,0 +1,284 @@
+    [
+        {
+            "basic_info": {
+                "name": "ビタミンC 1000mg",
+                "brand": "DHC",
+                "type": "ビタミン",
+                "form": "タブレット"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "免疫力の維持",
+                    "疲労回復のサポート",
+                    "肌の健康維持"
+                ],
+                "target_audience": [
+                    "日常的に健康を気にする人",
+                    "ストレスが多い生活を送る人"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "空腹時に胃の不快感を生じる場合がある"
+                ],
+                "precautions": [
+                    "過剰摂取は避ける",
+                    "妊娠中の方は医師に相談"
+                ],
+                "allergens": ["なし"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "マルチビタミン＆ミネラル",
+                "brand": "Nature Made",
+                "type": "マルチビタミン",
+                "form": "ソフトジェル"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "栄養バランスの補助",
+                    "エネルギー代謝の維持"
+                ],
+                "target_audience": [
+                    "忙しい現代人",
+                    "食生活が不規則な人"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "尿の色が濃くなる場合がある"
+                ],
+                "precautions": [
+                    "空腹時は避ける",
+                    "一度に大量摂取しないこと"
+                ],
+                "allergens": ["大豆"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "鉄分（フェリチン含有）",
+                "brand": "ファンケル",
+                "type": "ミネラル",
+                "form": "カプセル"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "貧血の予防",
+                    "疲れにくい体づくり"
+                ],
+                "target_audience": [
+                    "女性",
+                    "妊娠中・授乳中の方"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "便が黒くなる場合がある",
+                    "便秘"
+                ],
+                "precautions": [
+                    "過剰摂取で鉄過剰症のリスク",
+                    "医師の指導のもと使用"
+                ],
+                "allergens": ["なし"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "プロテイン ホエイ100",
+                "brand": "明治 ザバス",
+                "type": "たんぱく質",
+                "form": "粉末"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "筋肉の修復・増加",
+                    "運動後のリカバリー"
+                ],
+                "target_audience": [
+                    "スポーツをする人",
+                    "ダイエット中の栄養補助"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "摂りすぎによる肝・腎への負担"
+                ],
+                "precautions": [
+                    "水分をしっかりとる",
+                    "腎疾患のある方は注意"
+                ],
+                "allergens": ["乳"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "オメガ3（フィッシュオイル）",
+                "brand": "NOW Foods",
+                "type": "脂肪酸",
+                "form": "ソフトカプセル"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "血液サラサラ効果",
+                    "脳の健康維持"
+                ],
+                "target_audience": [
+                    "中高年",
+                    "生活習慣病の予防をしたい人"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "魚臭さを感じるげっぷ",
+                    "下痢"
+                ],
+                "precautions": [
+                    "抗凝固薬を使用中の方は医師に相談"
+                ],
+                "allergens": ["魚"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "グルコサミン＆コンドロイチン",
+                "brand": "Orihiro",
+                "type": "関節サポート",
+                "form": "タブレット"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "関節の柔軟性維持",
+                    "膝や腰の違和感の軽減"
+                ],
+                "target_audience": [
+                    "高齢者",
+                    "アクティブシニア"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "胃のムカつき",
+                    "軽いアレルギー反応"
+                ],
+                "precautions": [
+                    "甲殻類アレルギーのある人は注意"
+                ],
+                "allergens": ["エビ", "カニ"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "乳酸菌（シンバイオティクス）",
+                "brand": "ビオフェルミン",
+                "type": "腸内環境",
+                "form": "錠剤"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "腸内フローラの改善",
+                    "便通の正常化"
+                ],
+                "target_audience": [
+                    "便秘・下痢気味の人",
+                    "抗生物質服用後"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "おならが増える"
+                ],
+                "precautions": [
+                    "長期服用は医師に相談"
+                ],
+                "allergens": ["乳"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "亜鉛サプリ",
+                "brand": "DHC",
+                "type": "ミネラル",
+                "form": "タブレット"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "味覚の維持",
+                    "肌・髪の健康サポート"
+                ],
+                "target_audience": [
+                    "男性全般",
+                    "髪のボリュームが気になる人"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "吐き気",
+                    "金属のような味を感じることがある"
+                ],
+                "precautions": [
+                    "空腹時を避ける",
+                    "過剰摂取に注意"
+                ],
+                "allergens": ["なし"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "メラトニン 3mg",
+                "brand": "NOW Foods",
+                "type": "ホルモン調整",
+                "form": "タブレット"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "睡眠の質の向上",
+                    "時差ボケの軽減"
+                ],
+                "target_audience": [
+                    "不眠に悩む人",
+                    "海外出張や旅行が多い人"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "眠気、頭痛、夢の増加"
+                ],
+                "precautions": [
+                    "運転前は服用しない",
+                    "継続使用前に医師に相談"
+                ],
+                "allergens": ["なし"]
+            }
+        },
+        {
+            "basic_info": {
+                "name": "ビオチン 5000mcg",
+                "brand": "Nature’s Bounty",
+                "type": "ビタミンB群",
+                "form": "ソフトジェル"
+            },
+            "benefits_and_usage": {
+                "benefits": [
+                    "爪・髪の健康維持",
+                    "代謝サポート"
+                ],
+                "target_audience": [
+                    "美容を気にする女性",
+                    "爪が割れやすい人"
+                ]
+            },
+            "warnings_and_side_effects": {
+                "side_effects": [
+                    "にきびが増える場合がある"
+                ],
+                "precautions": [
+                    "血液検査に影響を与える可能性あり"
+                ],
+                "allergens": ["なし"]
+            }
+        }
+    ]
+
